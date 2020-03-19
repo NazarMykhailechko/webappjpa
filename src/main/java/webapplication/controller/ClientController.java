@@ -31,11 +31,8 @@ public class ClientController {
 
 
     @RequestMapping("/")
-    public String home(Model model, @ModelAttribute("client") Client client) {
+    public String home(Model model) {
         model.addAttribute("listOfClients", clientDao.findAll());
-        if(client.getName()!=null){
-            clientDao.save(client);
-        }
 
         for (Client cl : clientDao.findAll()) {
             System.out.print(cl.toString());

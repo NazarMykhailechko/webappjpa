@@ -36,23 +36,6 @@
 
 <h1>Create New Client</h1>
 <br />
-<form:form action="save" method="POST" modelAttribute="client" >
-
-    <table border="0" cellpadding="10">
-        <tr>
-            <td>Client name:</td>
-            <td><form:input path="name" /></td>
-        </tr>
-        <tr>
-            <td>Client Age:</td>
-            <td><form:input path="age" /></td>
-        </tr>
-        <tr>
-            <td colspan="2"><input type="submit" value="Save"></td>
-        </tr>
-    </table>
-</form:form>
-
 <a href="/add">Add new client</a>
 <h3>Clients List</h3>
 <c:if test="${!empty listOfClients}">
