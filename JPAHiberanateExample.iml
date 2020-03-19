@@ -135,5 +135,6 @@
     <orderEntry type="library" name="Maven: org.eclipse.jdt:ecj:3.12.3" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:bootstrap:3.3.7" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery:1.11.1" level="project" />
+    <orderEntry type="library" name="Maven: com.heroku.sdk:heroku-jdbc:0.1.1" level="project" />
   </component>
 </module>

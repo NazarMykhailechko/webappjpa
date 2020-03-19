@@ -100,6 +100,15 @@
             <artifactId>bootstrap</artifactId>
             <version>3.3.7</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.heroku.sdk/heroku-jdbc -->
+        <dependency>
+            <groupId>com.heroku.sdk</groupId>
+            <artifactId>heroku-jdbc</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>

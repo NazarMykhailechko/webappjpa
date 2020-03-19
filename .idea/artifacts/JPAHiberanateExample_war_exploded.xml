@@ -84,6 +84,7 @@
           <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.12.3" />
           <element id="library" level="project" name="Maven: org.webjars:bootstrap:3.3.7" />
           <element id="library" level="project" name="Maven: org.webjars:jquery:1.11.1" />
+          <element id="library" level="project" name="Maven: com.heroku.sdk:heroku-jdbc:0.1.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
