@@ -19,7 +19,7 @@ public class ClientController {
     public String showNewClientPage(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
-        return "WEB-INF/new_client";
+        return "new_client";
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
