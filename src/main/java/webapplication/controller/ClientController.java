@@ -11,7 +11,6 @@ import webapplication.dao.ClientDao;
 import webapplication.model.Client;
 
 @Controller
-@RequestMapping("/")
 public class ClientController {
 
     @Autowired
