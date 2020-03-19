@@ -1,5 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <html>
 <head>
@@ -32,6 +33,9 @@
     </style>
 </head>
 <body>
+
+<h1>Create New Client</h1>
+<br />
 <a href="/add">Add new client</a>
 <h3>Clients List</h3>
 <c:if test="${!empty listOfClients}">
