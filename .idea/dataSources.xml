@@ -11,5 +11,11 @@ C:/Users/Nazar/IdeaProjects/JPAHiberanateExample/src/main/resources/META-INF/per
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/clientsdb</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="herokudb" uuid="d9213d49-b8bd-43c6-be78-a0f40b1d6655">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://us-cdbr-iron-east-04.cleardb.net:3306/heroku_97b3a074f6583ec?reconnect=true</jdbc-url>
+    </data-source>
   </component>
 </project>
