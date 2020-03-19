@@ -17,8 +17,7 @@ public class ClientController {
     @Autowired
     ClientDao clientDao;
 
-    //@RequestMapping("/add")
-    @GetMapping("/add")
+    @RequestMapping("/add")
     public String showNewClientPage(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
@@ -33,10 +32,14 @@ public class ClientController {
 
 
     @RequestMapping("/")
-    public String home(Model model) {
+    public String home(Model model, @ModelAttribute("client") Client client) {
         model.addAttribute("listOfClients", clientDao.findAll());
-        for (Client client : clientDao.findAll()) {
-            System.out.print(client.toString());
+        if(client.getName()!=null){
+            clientDao.save(client);
+        }
+
+        for (Client cl : clientDao.findAll()) {
+            System.out.print(cl.toString());
         }
         return "index";
     }
