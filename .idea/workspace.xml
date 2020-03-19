@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fcf81ad-ad0b-4007-99ec-67e6d0869ba4" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JPAdb/Hibernate" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JPAdb/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JPAdb/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="clientsdb: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZIPQnIeuFIJHMmKkWEAR45NBqc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\.idea" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\web-app\WEB-INF\jsp" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\web-app" />
+      <recent name="C:\Users\MoYo\IdeaProjects\JPAHiberanateExample\src\main\resources\META-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\web-app\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootWebRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="JPAHiberanateExample" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="webapplication.SpringBootWebRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_JPAHiberanateExample" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49989" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringBootWebRun" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fcf81ad-ad0b-4007-99ec-67e6d0869ba4" name="Default" comment="" />
+      <created>1504365418509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504365418509</updated>
+      <workItem from="1504365427782" duration="1239000" />
+      <workItem from="1504373346820" duration="1787000" />
+      <workItem from="1504376560344" duration="1131000" />
+      <workItem from="1504431169223" duration="2293000" />
+      <workItem from="1504433689440" duration="1782000" />
+      <workItem from="1504435498667" duration="708000" />
+      <workItem from="1504452003801" duration="1784000" />
+      <workItem from="1504453821097" duration="1042000" />
+      <workItem from="1504458600519" duration="1809000" />
+      <workItem from="1504463116810" duration="1779000" />
+      <workItem from="1504464924852" duration="168000" />
+      <workItem from="1504540984734" duration="597000" />
+      <workItem from="1504548182886" duration="9000" />
+      <workItem from="1504720829671" duration="3000" />
+      <workItem from="1504807536031" duration="64000" />
+      <workItem from="1504807864920" duration="94000" />
+      <workItem from="1504807989678" duration="599000" />
+      <workItem from="1504953278053" duration="4920000" />
+      <workItem from="1584523622557" duration="285000" />
+      <workItem from="1584523931345" duration="577000" />
+      <workItem from="1584524677199" duration="1220000" />
+      <workItem from="1584527193597" duration="1232000" />
+      <workItem from="1584529178024" duration="1290000" />
+      <workItem from="1584544344063" duration="1783000" />
+      <workItem from="1584546221102" duration="1386000" />
+      <workItem from="1584552550110" duration="1833000" />
+      <workItem from="1584554926629" duration="1620000" />
+      <workItem from="1584560393499" duration="1850000" />
+      <workItem from="1584562300546" duration="1170000" />
+      <workItem from="1584563501674" duration="426000" />
+      <workItem from="1584564426563" duration="1648000" />
+      <workItem from="1584566265899" duration="741000" />
+      <workItem from="1584568346474" duration="1783000" />
+      <workItem from="1584570161358" duration="1780000" />
+      <workItem from="1584602094225" duration="1784000" />
+      <workItem from="1584604093821" duration="1052000" />
+      <workItem from="1584605163984" duration="227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1584565163971">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1584565163971" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584564715333">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584564715333" />
+    <state x="407" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584605008030">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="407" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1584605008030" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1584603692324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584603692324" />
+    <state x="490" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584523652940">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="490" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1584523652940" />
+    <state x="440" y="248" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1584565146728">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="440" y="248" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1280.680@0.0.1280.680" timestamp="1584565146728" />
+    <state x="462" y="267" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584560735423">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="462" y="267" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1584560735423" />
+    <state x="438" y="201" width="404" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584560960770">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="201" width="404" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1584560960770" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584604750804">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1584604750804" />
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1584604947215">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584604947215" />
+    <state width="1237" height="249" key="GridCell.Tab.0.bottom" timestamp="1584605455775">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="249" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584605455775" />
+    <state width="1237" height="249" key="GridCell.Tab.0.center" timestamp="1584605455775">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="249" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584605455775" />
+    <state width="1237" height="249" key="GridCell.Tab.0.left" timestamp="1584605455775">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="249" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584605455775" />
+    <state width="1237" height="249" key="GridCell.Tab.0.right" timestamp="1584605455775">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="249" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584605455775" />
+    <state width="1237" height="249" key="GridCell.Tab.1.bottom" timestamp="1584605455776">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="249" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584605455776" />
+    <state width="1237" height="249" key="GridCell.Tab.1.center" timestamp="1584605455775">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="249" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584605455775" />
+    <state width="1237" height="249" key="GridCell.Tab.1.left" timestamp="1584605455775">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="249" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584605455775" />
+    <state width="1237" height="249" key="GridCell.Tab.1.right" timestamp="1584605455776">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="249" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584605455776" />
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1584565785069">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584565785069" />
+    <state width="1237" height="204" key="GridCell.Tab.2.center" timestamp="1584565785069">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1584565785069" />
+    <state width="1237" height="204" key="GridCell.Tab.2.left" timestamp="1584565785069">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1584565785069" />
+    <state width="1237" height="204" key="GridCell.Tab.2.right" timestamp="1584565785069">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1584565785069" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1584560637892">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1584560637892" />
+    <state x="132" y="0" key="SettingsEditor" timestamp="1584564902909">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="132" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584564902909" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1584544705429">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1584544705429" />
+  </component>
+</project>
