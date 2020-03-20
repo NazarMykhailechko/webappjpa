@@ -10,13 +10,12 @@ import webapplication.dao.ClientDao;
 import webapplication.model.Client;
 
 @Controller
-@RequestMapping("/")
 public class ClientController {
 
     @Autowired
     ClientDao clientDao;
 
-    @RequestMapping("add")
+    @RequestMapping("/add")
     public String showNewClientPage(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
