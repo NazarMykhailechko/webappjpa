@@ -12,12 +12,13 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import javax.sql.DataSource;
 
 @SpringBootApplication
-public class SpringBootWebRun implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> {
+//implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory>
+public class SpringBootWebRun {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootWebRun.class, args);
     }
-    @Bean
+/*    @Bean
     public DataSource datasource() {
         return DataSourceBuilder.create()
                 .driverClassName("com.mysql.cj.jdbc.Driver")
@@ -37,5 +38,5 @@ public class SpringBootWebRun implements WebServerFactoryCustomizer<Configurable
     @Override
     public void customize(ConfigurableServletWebServerFactory server) {
         server.setPort(8081);
-    }
+    }*/
 }
