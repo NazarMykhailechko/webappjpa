@@ -15,11 +15,11 @@ public class ClientController {
     @Autowired
     ClientDao clientDao;
 
-    @RequestMapping(value = "add", method = RequestMethod.GET)
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
     public String showNewClientPage(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
-        return "new_client";
+        return "WEB-INF/new_client";
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
