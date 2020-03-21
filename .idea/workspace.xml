@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fcf81ad-ad0b-4007-99ec-67e6d0869ba4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appl.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapplication/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapplication/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapplication/SpringBootWebRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapplication/SpringBootWebRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-heroku.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-heroku.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/new_client.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/new_client.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JPAHiberanateExample-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/JPAHiberanateExample-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-heroku.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-heroku.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapplication/SpringBootWebRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webapplication/SpringBootWebRun.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,21 @@
         <item name="herokudb" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="heroku_97b3a074f6583ec: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JPAdb/Hibernate" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JPAdb/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JPAdb/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="clientsdb: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -80,6 +98,13 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\resources" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -87,13 +112,6 @@
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main" />
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src" />
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\web-app\WEB-INF" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF\jsp" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\resources" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample" />
     </key>
   </component>
   <component name="RunManager">
@@ -289,7 +307,9 @@
       <workItem from="1584791376046" duration="854000" />
       <workItem from="1584794336399" duration="1091000" />
       <workItem from="1584795780918" duration="1403000" />
-      <workItem from="1584797212776" duration="513000" />
+      <workItem from="1584797212776" duration="1205000" />
+      <workItem from="1584799379049" duration="842000" />
+      <workItem from="1584800663899" duration="1141000" />
     </task>
     <servers />
   </component>
@@ -309,10 +329,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="407" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1584605008030" />
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1584603692324">
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1584802011059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584603692324" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584802011059" />
     <state x="490" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584523652940">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -337,38 +357,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584604947215" />
-    <state width="1237" height="224" key="GridCell.Tab.0.bottom" timestamp="1584797729558">
+    <state width="1237" height="278" key="GridCell.Tab.0.bottom" timestamp="1584801806841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="224" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584797729558" />
-    <state width="1237" height="224" key="GridCell.Tab.0.center" timestamp="1584797729557">
+    <state width="1237" height="278" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584801806841" />
+    <state width="1237" height="278" key="GridCell.Tab.0.center" timestamp="1584801806841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="224" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584797729557" />
-    <state width="1237" height="224" key="GridCell.Tab.0.left" timestamp="1584797729557">
+    <state width="1237" height="278" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584801806841" />
+    <state width="1237" height="278" key="GridCell.Tab.0.left" timestamp="1584801806841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="224" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584797729557" />
-    <state width="1237" height="224" key="GridCell.Tab.0.right" timestamp="1584797729557">
+    <state width="1237" height="278" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584801806841" />
+    <state width="1237" height="278" key="GridCell.Tab.0.right" timestamp="1584801806841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="224" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584797729557" />
-    <state width="1237" height="224" key="GridCell.Tab.1.bottom" timestamp="1584797729558">
+    <state width="1237" height="278" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584801806841" />
+    <state width="1237" height="278" key="GridCell.Tab.1.bottom" timestamp="1584801806841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="224" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584797729558" />
-    <state width="1237" height="224" key="GridCell.Tab.1.center" timestamp="1584797729558">
+    <state width="1237" height="278" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584801806841" />
+    <state width="1237" height="278" key="GridCell.Tab.1.center" timestamp="1584801806841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="224" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584797729558" />
-    <state width="1237" height="224" key="GridCell.Tab.1.left" timestamp="1584797729558">
+    <state width="1237" height="278" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584801806841" />
+    <state width="1237" height="278" key="GridCell.Tab.1.left" timestamp="1584801806841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="224" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584797729558" />
-    <state width="1237" height="224" key="GridCell.Tab.1.right" timestamp="1584797729558">
+    <state width="1237" height="278" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584801806841" />
+    <state width="1237" height="278" key="GridCell.Tab.1.right" timestamp="1584801806841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="224" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584797729558" />
+    <state width="1237" height="278" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584801806841" />
     <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1584565785069">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
