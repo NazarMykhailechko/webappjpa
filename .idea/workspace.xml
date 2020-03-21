@@ -4,7 +4,6 @@
     <list default="true" id="3fcf81ad-ad0b-4007-99ec-67e6d0869ba4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapplication/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webapplication/DatabaseConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,17 +21,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="herokudb" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="herokudb" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -64,27 +53,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\resources" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\web-app\WEB-INF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp" />
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF\jsp" />
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\resources" />
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\web-app\WEB-INF" />
     </key>
   </component>
   <component name="RunManager">
@@ -286,7 +276,7 @@
       <workItem from="1584801895160" duration="556000" />
       <workItem from="1584802542429" duration="1789000" />
       <workItem from="1584804721566" duration="1539000" />
-      <workItem from="1584806868910" duration="68000" />
+      <workItem from="1584806868910" duration="1107000" />
     </task>
     <servers />
   </component>
