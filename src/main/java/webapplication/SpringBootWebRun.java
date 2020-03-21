@@ -2,14 +2,7 @@ package webapplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.jdbc.DataSourceBuilder;
-import org.springframework.boot.web.server.WebServerFactoryCustomizer;
-import org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory;
-import org.springframework.context.annotation.Bean;
-import org.springframework.web.servlet.ViewResolver;
-import org.springframework.web.servlet.view.InternalResourceViewResolver;
-
-import javax.sql.DataSource;
+import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 //implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory>
@@ -18,6 +11,22 @@ public class SpringBootWebRun {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootWebRun.class, args);
     }
+
+//    @Bean
+//    public BasicDataSource dataSource() throws URISyntaxException {
+//        URI dbUri = new URI(System.getenv("CLEARDB_DATABASE_URL"));
+//
+//        String username = dbUri.getUserInfo().split(":")[0];
+//        String password = dbUri.getUserInfo().split(":")[1];
+//        String dbUrl = "jdbc:mysql://" + dbUri.getHost() + dbUri.getPath();
+//
+//        BasicDataSource basicDataSource = new BasicDataSource();
+//        basicDataSource.setUrl(dbUrl);
+//        basicDataSource.setUsername(username);
+//        basicDataSource.setPassword(password);//
+//        return basicDataSource;
+//    }
+
 /*    @Bean
     public DataSource datasource() {
         return DataSourceBuilder.create()

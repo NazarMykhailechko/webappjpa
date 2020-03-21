@@ -70,6 +70,13 @@
             <version>8.0.19</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.heroku.sdk/heroku-jdbc -->
+        <dependency>
+            <groupId>com.heroku.sdk</groupId>
+            <artifactId>heroku-jdbc</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+
 
         <!-- JSTL for JSP -->
         <dependency>
@@ -84,6 +91,16 @@
             <version>8.5.47</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
+
     </dependencies>
+
+
 
 </project>
