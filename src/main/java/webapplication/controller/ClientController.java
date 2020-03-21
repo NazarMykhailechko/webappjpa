@@ -15,7 +15,7 @@ public class ClientController {
     @Autowired
     ClientDao clientDao;
 
-    @RequestMapping("/add")
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
     public String showNewClientPage(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
@@ -29,7 +29,7 @@ public class ClientController {
     }
 
 
-    @RequestMapping("/")
+    @RequestMapping(value = "/")
     public String home(Model model) {
         model.addAttribute("listOfClients", clientDao.findAll());
 
