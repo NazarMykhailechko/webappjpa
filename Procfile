@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* JPAHiberanateExample
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* SpringBootWebRun
