@@ -15,7 +15,7 @@ public class ClientController {
     @Autowired
     ClientDao clientDao;
 
-    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    @RequestMapping(value = "add", method = RequestMethod.GET)
     public String showNewClientPage(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
