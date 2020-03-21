@@ -15,11 +15,11 @@ public class ClientController {
     @Autowired
     ClientDao clientDao;
 
-    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    @RequestMapping(value = "/add")
     public String showNewClientPage(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
-        return "new_client.jsp";
+        return "new_client";
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
@@ -36,7 +36,7 @@ public class ClientController {
         for (Client cl : clientDao.findAll()) {
             System.out.print(cl.toString());
         }
-        return "index.jsp";
+        return "index";
     }
 
 
