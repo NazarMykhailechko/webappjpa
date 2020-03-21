@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3fcf81ad-ad0b-4007-99ec-67e6d0869ba4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapplication/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapplication/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JPAHiberanateExample-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/JPAHiberanateExample-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JPAHiberanateExample-1.0-SNAPSHOT/WEB-INF/classes/webapplication/controller/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JPAHiberanateExample-1.0-SNAPSHOT/WEB-INF/classes/webapplication/controller/ClientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapplication/controller/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webapplication/controller/ClientController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +75,13 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\resources" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -86,13 +89,6 @@
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main" />
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src" />
       <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\web-app\WEB-INF" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\resources" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF\jsp" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\Nazar\IdeaProjects\JPAHiberanateExample" />
     </key>
   </component>
   <component name="RunManager">
@@ -286,7 +282,7 @@
       <workItem from="1584693170850" duration="1784000" />
       <workItem from="1584694983335" duration="2100000" />
       <workItem from="1584791376046" duration="854000" />
-      <workItem from="1584794336399" duration="599000" />
+      <workItem from="1584794336399" duration="1091000" />
     </task>
     <servers />
   </component>
@@ -334,38 +330,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584604947215" />
-    <state width="1237" height="123" key="GridCell.Tab.0.bottom" timestamp="1584795155458">
+    <state width="1237" height="123" key="GridCell.Tab.0.bottom" timestamp="1584795840830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="123" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584795155458" />
-    <state width="1237" height="123" key="GridCell.Tab.0.center" timestamp="1584795155458">
+    <state width="1237" height="123" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584795840830" />
+    <state width="1237" height="123" key="GridCell.Tab.0.center" timestamp="1584795840830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="123" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584795155458" />
-    <state width="1237" height="123" key="GridCell.Tab.0.left" timestamp="1584795155458">
+    <state width="1237" height="123" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584795840830" />
+    <state width="1237" height="123" key="GridCell.Tab.0.left" timestamp="1584795840829">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="123" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584795155458" />
-    <state width="1237" height="123" key="GridCell.Tab.0.right" timestamp="1584795155458">
+    <state width="1237" height="123" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584795840829" />
+    <state width="1237" height="123" key="GridCell.Tab.0.right" timestamp="1584795840830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="123" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584795155458" />
-    <state width="1237" height="123" key="GridCell.Tab.1.bottom" timestamp="1584795155459">
+    <state width="1237" height="123" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584795840830" />
+    <state width="1237" height="123" key="GridCell.Tab.1.bottom" timestamp="1584795234452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="123" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584795155459" />
-    <state width="1237" height="123" key="GridCell.Tab.1.center" timestamp="1584795155459">
+    <state width="1237" height="123" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584795234452" />
+    <state width="1237" height="123" key="GridCell.Tab.1.center" timestamp="1584795234451">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="123" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584795155459" />
-    <state width="1237" height="123" key="GridCell.Tab.1.left" timestamp="1584795155459">
+    <state width="1237" height="123" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584795234451" />
+    <state width="1237" height="123" key="GridCell.Tab.1.left" timestamp="1584795234451">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="123" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584795155459" />
-    <state width="1237" height="123" key="GridCell.Tab.1.right" timestamp="1584795155459">
+    <state width="1237" height="123" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584795234451" />
+    <state width="1237" height="123" key="GridCell.Tab.1.right" timestamp="1584795234452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="123" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584795155459" />
+    <state width="1237" height="123" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584795234452" />
     <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1584565785069">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

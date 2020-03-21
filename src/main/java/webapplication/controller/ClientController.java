@@ -19,7 +19,7 @@ public class ClientController {
     public String showNewClientPage(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
-        return "WEB-INF/new_client";
+        return "new_client.jsp";
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
@@ -36,7 +36,7 @@ public class ClientController {
         for (Client cl : clientDao.findAll()) {
             System.out.print(cl.toString());
         }
-        return "index";
+        return "index.jsp";
     }
 
 
