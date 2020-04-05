@@ -15,11 +15,11 @@ public class ClientController {
     @Autowired
     ClientDao clientDao;
 
-    @RequestMapping(value = "/add")
+    @RequestMapping("/add")
     public String showNewClientPage(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
-        return "/new_client";
+        return "new_client";
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
@@ -28,16 +28,16 @@ public class ClientController {
         return "redirect:/";
     }
 
-
-    @RequestMapping(value = "/")
+    @RequestMapping("/")
     public String home(Model model) {
-        model.addAttribute("listOfClients", clientDao.findAll());
 
         for (Client cl : clientDao.findAll()) {
             System.out.print(cl.toString());
         }
-        return "/index";
-    }
 
+        model.addAttribute("listOfClients", clientDao.findAll());
+
+        return "index";
+    }
 
 }

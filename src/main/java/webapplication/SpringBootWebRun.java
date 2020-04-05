@@ -1,8 +1,11 @@
 package webapplication;
 
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.context.annotation.Configuration;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 //implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory>
@@ -11,7 +14,7 @@ public class SpringBootWebRun {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootWebRun.class, args);
     }
-
+}
 //    @Bean
 //    public BasicDataSource dataSource() throws URISyntaxException {
 //        URI dbUri = new URI(System.getenv("CLEARDB_DATABASE_URL"));
@@ -47,5 +50,6 @@ public class SpringBootWebRun {
     @Override
     public void customize(ConfigurableServletWebServerFactory server) {
         server.setPort(8081);
-    }*/
-}
+    }
+    }
+ */

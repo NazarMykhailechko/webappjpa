@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* SpringBootWebRun
+web: java $JAVA_OPTS -jar target/JPAHiberanateExample-1.0-SNAPSHOT.war -Dserver.port=$PORT
