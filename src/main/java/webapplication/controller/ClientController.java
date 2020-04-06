@@ -50,12 +50,12 @@ public class ClientController {
         InetAddress InetAddress = java.net.InetAddress.getLoopbackAddress();
         String sysss = System.getProperty("user.name");
         Runtime r = Runtime.getRuntime();
-        Process p = r.exec("hostname");
+        Process p = r.exec("whoami");
         BufferedReader rr = new BufferedReader(new InputStreamReader(p.getInputStream()));
         System.out.println(rr.readLine());
 
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
-        model.addAttribute("userlogin", InetAddress.getHostAddress());
+        model.addAttribute("userlogin", rr.readLine());
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());

@@ -12,7 +12,7 @@ public class TestIpAddress {
         System.out.println(System.getenv("username"));
 
         Runtime r = Runtime.getRuntime();
-        Process p = r.exec("hostname");
+        Process p = r.exec("whoami");
         BufferedReader rr = new BufferedReader(new InputStreamReader(p.getInputStream()));
         System.out.println(rr.readLine());
 
