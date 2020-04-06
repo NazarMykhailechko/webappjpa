@@ -25,6 +25,8 @@ public class ClientController {
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public String saveClient(@ModelAttribute("client") Client client) {
+        client.setUserlogin(System.getenv("username"));
+        System.out.println(client);
         clientDao.save(client);
         return "redirect:/";
     }
