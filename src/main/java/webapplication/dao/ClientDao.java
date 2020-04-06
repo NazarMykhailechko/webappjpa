@@ -7,5 +7,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface ClientDao extends JpaRepository<Client, Integer> {
-    List<Client> findByLogin(String login);
+    List<Client> findByUserlogin(String login);
 }

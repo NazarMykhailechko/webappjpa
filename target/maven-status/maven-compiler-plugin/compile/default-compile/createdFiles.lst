@@ -1,3 +1,4 @@
+TestIpAddress.class
 webapplication\model\Client.class
 webapplication\dao\ClientDao.class
 webapplication\SpringBootWebRun.class

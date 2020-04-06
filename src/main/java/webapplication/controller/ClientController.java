@@ -31,9 +31,9 @@ public class ClientController {
 
     @RequestMapping("/")
     public String home(Model model) {
-        model.addAttribute("listOfClients", clientDao.findByLogin(System.getenv("username")));
+        model.addAttribute("listOfClients", clientDao.findByUserlogin(System.getenv("username")));
 
-        for (Client cl : clientDao.findByLogin(System.getenv("username"))) {
+        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
             System.out.print(cl.toString());
         }
         return "index";
