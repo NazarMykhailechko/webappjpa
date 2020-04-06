@@ -1,6 +1,7 @@
 package webapplication.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -22,6 +23,9 @@ public class ClientController {
 
     @Autowired
     ClientDao clientDao;
+
+    @Autowired
+    private Environment environment;
 
     @RequestMapping("/add")
     public String showNewClientPage(Model model) {
@@ -50,7 +54,7 @@ public class ClientController {
         System.out.println(rr.readLine());
 
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
-        model.addAttribute("userlogin", request.getLocalName());
+        model.addAttribute("userlogin", environment.getProperty("local.server.port"));
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());
