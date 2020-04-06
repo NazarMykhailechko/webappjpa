@@ -47,7 +47,7 @@ public class ClientController {
     public String home(Model model, HttpServletRequest request, Principal principal) throws IOException {
         System.out.println(request.getRemoteUser());
         String userlogin = System.getenv("username");
-        InetAddress InetAddress = java.net.InetAddress.getLocalHost();
+        InetAddress InetAddress = java.net.InetAddress.getLoopbackAddress();
         String sysss = System.getProperty("user.name");
         Runtime r = Runtime.getRuntime();
         Process p = r.exec("hostname");
