@@ -17,5 +17,11 @@ C:/Users/Nazar/IdeaProjects/JPAHiberanateExample/src/main/resources/META-INF/per
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://us-cdbr-iron-east-04.cleardb.net:3306/heroku_97b3a074f6583ec?reconnect=true</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="herokuremotedb" uuid="5ced2334-a061-49cf-8b60-af81602d4153">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://eu-cdbr-west-02.cleardb.net:3306/heroku_5585645ff5b845c?reconnect=true</jdbc-url>
+    </data-source>
   </component>
 </project>
