@@ -44,7 +44,7 @@ public class ClientController {
 
     @RequestMapping("/")
     public String home(Model model, HttpServletRequest request) throws IOException {
-        System.out.println(request.getLocalName());
+        System.out.println(request.getRemoteUser());
         String userlogin = System.getenv("username");
         InetAddress InetAddress = java.net.InetAddress.getLocalHost();
         String sysss = System.getProperty("user.name");
@@ -54,7 +54,7 @@ public class ClientController {
         System.out.println(rr.readLine());
 
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
-        model.addAttribute("userlogin", environment.getProperty("local.server.port"));
+        model.addAttribute("userlogin", request.getRemoteUser());
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());
