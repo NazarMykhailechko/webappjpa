@@ -35,6 +35,7 @@ public class ClientController {
     public String home(Model model) {
         String userlogin = System.getenv("username");
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
+        model.addAttribute("userlogin", userlogin);
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());

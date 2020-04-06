@@ -36,6 +36,7 @@
 
 <br />
 <a href="/add">Add new client</a>
+<h1>${userlogin}</h1>
 <h3>Clients List</h3>
 <c:if test="${!empty listOfClients}">
     <table class="tg">
