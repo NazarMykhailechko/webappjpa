@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import webapplication.dao.ClientDao;
 import webapplication.model.Client;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 @Controller
 @RequestMapping("/")
 public class ClientController {
@@ -32,10 +35,11 @@ public class ClientController {
     }
 
     @RequestMapping("/")
-    public String home(Model model) {
+    public String home(Model model) throws UnknownHostException {
         String userlogin = System.getenv("username");
+        InetAddress InetAddress = java.net.InetAddress.getLocalHost();
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
-        model.addAttribute("userlogin", userlogin);
+        model.addAttribute("userlogin", InetAddress);
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());
