@@ -25,7 +25,7 @@ public class ClientController {
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public String saveClient(@ModelAttribute("client") Client client) {
-        client.setUserlogin(System.getenv("username"));
+        client.setUserlogin("WIN72");
         System.out.println(client);
         clientDao.save(client);
         return "redirect:/";
@@ -33,11 +33,12 @@ public class ClientController {
 
     @RequestMapping("/")
     public String home(Model model) {
-        model.addAttribute("listOfClients", clientDao.findByUserlogin(System.getenv("username")));
+        model.addAttribute("listOfClients", clientDao.findByUserlogin("WIN72"));
 
-        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
-            System.out.print(cl.toString());
-        }
+//        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
+//            System.out.print(cl.toString());
+//        }
+
         return "index";
     }
 
