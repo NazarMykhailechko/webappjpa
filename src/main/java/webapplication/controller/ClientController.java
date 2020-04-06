@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import webapplication.dao.ClientDao;
 import webapplication.model.Client;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -38,7 +39,8 @@ public class ClientController {
     }
 
     @RequestMapping("/")
-    public String home(Model model) throws IOException {
+    public String home(Model model, HttpServletRequest request) throws IOException {
+        System.out.println(request.getLocalName());
         String userlogin = System.getenv("username");
         InetAddress InetAddress = java.net.InetAddress.getLocalHost();
         String sysss = System.getProperty("user.name");
@@ -48,7 +50,7 @@ public class ClientController {
         System.out.println(rr.readLine());
 
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
-        model.addAttribute("userlogin", sysss);
+        model.addAttribute("userlogin", request.getLocalName());
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());
