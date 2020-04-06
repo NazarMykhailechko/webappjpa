@@ -13,13 +13,16 @@ public class Client {
     private String name;
     @Column(name = "age", nullable = false)
     private int age;
+    @Column(name = "userlogin", nullable = false)
+    private String userlogin;
 
     public Client() {
     }
 
-    public Client(String name, int age) {
+    public Client(String name, int age, String userlogin) {
         this.name = name;
         this.age = age;
+        this.userlogin = userlogin;
     }
 
     public long getId() {
@@ -42,12 +45,22 @@ public class Client {
         this.age = age;
     }
 
+    public String getUserlogin() {
+        return userlogin;
+    }
+
+    public void setUserlogin(String userlogin) {
+        this.userlogin = userlogin;
+    }
+
     @Override
     public String toString() {
         return "Client{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
+                ", userlogin='" + userlogin + '\'' +
                 '}';
     }
+
 }

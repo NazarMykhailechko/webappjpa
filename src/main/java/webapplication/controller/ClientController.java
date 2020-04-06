@@ -29,16 +29,14 @@ public class ClientController {
         return "redirect:/";
     }
 
-
     @RequestMapping("/")
     public String home(Model model) {
-        model.addAttribute("listOfClients", clientDao.findAll());
+        model.addAttribute("listOfClients", clientDao.findByLogin(System.getenv("username")));
 
-        for (Client cl : clientDao.findAll()) {
+        for (Client cl : clientDao.findByLogin(System.getenv("username"))) {
             System.out.print(cl.toString());
         }
         return "index";
     }
-
 
 }
