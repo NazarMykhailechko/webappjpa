@@ -41,14 +41,14 @@ public class ClientController {
     public String home(Model model) throws IOException {
         String userlogin = System.getenv("username");
         InetAddress InetAddress = java.net.InetAddress.getLocalHost();
-
+        String sysss = System.getProperty("user.name");
         Runtime r = Runtime.getRuntime();
         Process p = r.exec("hostname");
         BufferedReader rr = new BufferedReader(new InputStreamReader(p.getInputStream()));
         System.out.println(rr.readLine());
 
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
-        model.addAttribute("userlogin", rr.readLine());
+        model.addAttribute("userlogin", sysss);
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());

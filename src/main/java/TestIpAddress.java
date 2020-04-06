@@ -15,6 +15,8 @@ public class TestIpAddress {
         Process p = r.exec("hostname");
         BufferedReader rr = new BufferedReader(new InputStreamReader(p.getInputStream()));
         System.out.println(rr.readLine());
+
+        System.out.println(System.getProperty("user.name"));
     }
 
 }
