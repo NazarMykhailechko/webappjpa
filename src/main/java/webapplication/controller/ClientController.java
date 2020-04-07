@@ -4,10 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import webapplication.dao.ClientDao;
 import webapplication.model.Client;
@@ -29,6 +26,14 @@ public class ClientController {
         return "new_client";
     }
 
+    @RequestMapping(value = "/save", method = RequestMethod.POST)
+    public String saveClient(@ModelAttribute("client") Client client) {
+        //String userlogin = System.getenv("username");
+        client.setUserlogin("WIN72");
+        clientDao.save(client);
+        return "redirect:/";
+    }
+
     @RequestMapping(value = "/deleteClient/{id}")
     public String deleteClient(@PathVariable(name = "id") int id) {
         clientDao.deleteById(id);
@@ -40,17 +45,23 @@ public class ClientController {
         ModelAndView mav = new ModelAndView("update_client");
         Client client = clientDao.findById(id).get();
         mav.addObject("client", client);
-
         return mav;
     }
 
-    @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public String saveClient(@ModelAttribute("client") Client client) {
+    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    public String saveUpdateClient(@RequestParam("id") int id,
+                                   @RequestParam("name") String name,
+                                   @RequestParam("age") int age) {
         //String userlogin = System.getenv("username");
+        Client client = clientDao.findById(id).get();
+        client.setName(name);
+        client.setAge(age);
         client.setUserlogin("WIN72");
-        clientDao.save(client);
+        //clientDao.save(client);
         return "redirect:/";
     }
+
+
 
     @RequestMapping("/")
     public String home(Model model) throws IOException {
