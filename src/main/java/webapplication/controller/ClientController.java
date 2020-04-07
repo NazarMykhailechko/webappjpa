@@ -5,12 +5,15 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 import webapplication.dao.ClientDao;
 import webapplication.model.Client;
 
 import java.io.IOException;
+import java.util.Optional;
 
 @Controller
 @RequestMapping("/")
@@ -20,10 +23,25 @@ public class ClientController {
     ClientDao clientDao;
 
     @RequestMapping("/add")
-    public String showNewClientPage(Model model) {
+    public String addClient(Model model) {
         Client client = new Client();
         model.addAttribute("client", client);
         return "new_client";
+    }
+
+    @RequestMapping(value = "/deleteClient/{id}", method = RequestMethod.POST)
+    public String deleteClient(@PathVariable(name = "id") int id) {
+        clientDao.deleteById(id);
+        return "redirect:/";
+    }
+
+    @RequestMapping(value = "/updateClient/{id}", method = RequestMethod.POST)
+    public ModelAndView updateClient(@PathVariable(name = "id") int id) {
+        ModelAndView mav = new ModelAndView("update_client");
+        Optional<Client> client = clientDao.findById(id);
+        mav.addObject("client", client);
+
+        return mav;
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
