@@ -29,7 +29,7 @@ public class ClientController {
         return "new_client";
     }
 
-    @RequestMapping(value = "/deleteClient/{id}", method = RequestMethod.POST)
+    @RequestMapping(value = "/deleteClient/{id}")
     public String deleteClient(@PathVariable(name = "id") int id) {
         clientDao.deleteById(id);
         return "redirect:/";
