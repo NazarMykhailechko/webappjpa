@@ -53,7 +53,7 @@
 
             <tr>
                 <td><b>Surname</b></td>
-                <td><input type='text' name='surname' class='form-control' value="${client.age}" /></td>
+                <td><input type='text' name='age' class='form-control' value="${client.age}" /></td>
             </tr>
 
             <tr>

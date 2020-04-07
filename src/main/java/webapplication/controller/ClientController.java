@@ -38,7 +38,7 @@ public class ClientController {
     @RequestMapping(value = "/updateClient/{id}")
     public ModelAndView updateClient(@PathVariable(name = "id") int id) {
         ModelAndView mav = new ModelAndView("update_client");
-        Optional<Client> client = clientDao.findById(id);
+        Client client = clientDao.findById(id).get();
         mav.addObject("client", client);
 
         return mav;
