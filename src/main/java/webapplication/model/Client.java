@@ -25,7 +25,7 @@ public class Client {
         this.userlogin = userlogin;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
