@@ -35,7 +35,7 @@ public class ClientController {
         return "redirect:/";
     }
 
-    @RequestMapping(value = "/updateClient/{id}", method = RequestMethod.POST)
+    @RequestMapping(value = "/updateClient/{id}")
     public ModelAndView updateClient(@PathVariable(name = "id") int id) {
         ModelAndView mav = new ModelAndView("update_client");
         Optional<Client> client = clientDao.findById(id);
