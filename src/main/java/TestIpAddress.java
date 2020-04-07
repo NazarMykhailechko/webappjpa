@@ -10,6 +10,7 @@ public class TestIpAddress {
         InetAddress InetAddress = java.net.InetAddress.getLocalHost();
         System.out.println(InetAddress);
         System.out.println(System.getenv("username"));
+        System.out.println(System.getenv());
 
         Runtime r = Runtime.getRuntime();
         Process p = r.exec("whoami");

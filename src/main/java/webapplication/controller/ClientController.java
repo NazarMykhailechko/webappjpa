@@ -17,6 +17,7 @@ import java.io.InputStreamReader;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.security.Principal;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/")
@@ -45,8 +46,9 @@ public class ClientController {
 
     @RequestMapping("/")
     public String home(Model model, HttpServletRequest request, Principal principal) throws IOException {
-        System.out.println(request.getRemoteUser());
+        System.out.println(request.getRemoteAddr());
         String userlogin = System.getenv("username");
+        Map<String, String> userlogin1 = System.getenv();
         InetAddress InetAddress = java.net.InetAddress.getLoopbackAddress();
         String sysss = System.getProperty("user.name");
         Runtime r = Runtime.getRuntime();
@@ -55,7 +57,7 @@ public class ClientController {
         System.out.println(rr.readLine());
 
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
-        model.addAttribute("userlogin", rr.readLine());
+        model.addAttribute("userlogin", userlogin1);
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());
