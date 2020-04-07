@@ -57,7 +57,7 @@ public class ClientController {
         client.setName(name);
         client.setAge(age);
         client.setUserlogin("WIN72");
-        //clientDao.save(client);
+        clientDao.save(client);
         return "redirect:/";
     }
 
