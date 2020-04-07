@@ -57,7 +57,7 @@ public class ClientController {
         System.out.println(rr.readLine());
 
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
-        model.addAttribute("userlogin", request.getRemoteAddr());
+        model.addAttribute("userlogin", request.getRemoteHost());
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());
