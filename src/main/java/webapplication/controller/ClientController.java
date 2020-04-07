@@ -55,9 +55,9 @@ public class ClientController {
         Process p = r.exec("whoami");
         BufferedReader rr = new BufferedReader(new InputStreamReader(p.getInputStream()));
         System.out.println(rr.readLine());
-
+        String remoteAddr = request.getHeader("X-FORWARDED-FOR");
         model.addAttribute("listOfClients", clientDao.findByUserlogin(userlogin));
-        model.addAttribute("userlogin", request.getRemoteHost());
+        model.addAttribute("userlogin", remoteAddr);
 
 //        for (Client cl : clientDao.findByUserlogin(System.getenv("username"))) {
 //            System.out.print(cl.toString());
