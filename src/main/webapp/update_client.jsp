@@ -52,7 +52,7 @@
             </tr>
 
             <tr>
-                <td><b>Surname</b></td>
+                <td><b>Age</b></td>
                 <td><input type='text' name='age' class='form-control' value="${client.age}" /></td>
             </tr>
             <input type='hidden' id='id' class='form-control' name='id' value="${client.id}"/>
