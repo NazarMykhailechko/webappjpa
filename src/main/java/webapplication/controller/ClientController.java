@@ -19,9 +19,6 @@ public class ClientController {
     @Autowired
     ClientDao clientDao;
 
-    @Autowired
-    private Environment environment;
-
     @RequestMapping("/add")
     public String showNewClientPage(Model model) {
         Client client = new Client();
@@ -31,8 +28,8 @@ public class ClientController {
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public String saveClient(@ModelAttribute("client") Client client) {
-        String userlogin = System.getenv("username");
-        client.setUserlogin(userlogin);
+        //String userlogin = System.getenv("username");
+        client.setUserlogin("WIN72");
         clientDao.save(client);
         return "redirect:/";
     }
