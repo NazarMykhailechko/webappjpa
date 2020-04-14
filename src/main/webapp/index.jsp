@@ -4,6 +4,9 @@
 
 <html>
 <head>
+    <title>
+      listOfNames
+    </title>
     <style>
         .blue-button{
             background: #25A6E1;
